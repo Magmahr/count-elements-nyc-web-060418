@@ -1,6 +1,6 @@
 def count_elements(array)
   new_hash = {}
-  count = 1
+  count = 0
   array.each do |animal|
     new_hash[animal] = count
       if animal
